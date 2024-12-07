@@ -21,7 +21,7 @@ module.exports = {
             console.error(`Error sending /bump command:`, error);
           }
           startBumping(); 
-        }, Math.round(Math.random() * (1860000 - 1800000 + 1)) + 1800000);
+        }, Math.round(Math.random() * (3660000 - 3600000 + 1)) + 3600000);
       };
       startBumping();
       message.channel.send(`\`\`\`✔ Started sending /bump command at random intervals in this channel.\`\`\``);
@@ -33,7 +33,7 @@ module.exports = {
 
 async function sendBumpCommand(channel) {
   try {
-    await channel.sendSlash('860533804091179008', 'bump');
+    await channel.sendSlash('1274435601470459946', 'bump');
   } catch (error) {
     console.error('Failed to send /bump command:', error);
   }
