@@ -21,7 +21,7 @@ module.exports = {
             console.error(`Error sending /bump command:`, error);
           }
           startBumping(); 
-        }, Math.round(Math.random() * (9000000 - 7200000 + 1)) + 7200000);
+        }, Math.round(Math.random() * (7260000 - 7200000 + 1)) + 7200000);
       };
       startBumping();
       message.channel.send(`\`\`\`✔ Started sending /bump command at random intervals in this channel.\`\`\``);
