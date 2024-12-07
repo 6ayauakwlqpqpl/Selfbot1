@@ -33,7 +33,7 @@ module.exports = {
 
 async function sendBumpCommand(channel) {
   try {
-    await channel.sendSlash('1278634605980942377', 'boop');
+    await channel.sendSlash('1154077045903593555', 'bump');
   } catch (error) {
     console.error('Failed to send /bump command:', error);
   }
